@@ -1,142 +1,181 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Fatal Crash</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="/css/3w.css">
-<!--<link rel="stylesheet" href="font-awesome.min.css">-->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="font-awesome.min.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Notable&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Notable&family=Trade+Winds&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Notable&family=Rubik+Glitch&family=Trade+Winds&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Notable&family=Rubik+Glitch&family=Rubik+Vinyl&family=Trade+Winds&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Notable&family=Rubik+Glitch&family=Rubik+Vinyl&family=Stalinist+One&family=Trade+Winds&display=swap" rel="stylesheet">
-<link rel="shortcut icon" href="fatalprueba.ico" />
-<style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
-.notable-prueba{
-  font-family: "Notable", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-.rock-salt-regular {
-  font-family: "Rock Salt", cursive;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 80px;
-  color: aliceblue;
-}
-.trade-winds-regular {
-  font-family: "Trade Winds", system-ui;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 80px;
-  color: aliceblue;
-}
-.notable-regular {
-  font-family: "Notable", serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 80px;
-  color: aliceblue;
-}
-.rubik-glitch-regular {
-  font-family: "Rubik Glitch", system-ui;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 80px;
-  color: aliceblue;
-}
-.rubik-vinyl-regular {
-  font-family: "Rubik Vinyl", system-ui;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 45px;
-  color: aliceblue;
-}
-.stalinist-one-regular {
-  font-family: "Stalinist One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: aliceblue;
-}
-.w3-row-padding img {margin-bottom: 12px}
-/* Set the width of the sidebar to 120px */
-.w3-sidebar {width:180px;background: #962525cc;}
-/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
-#main {margin-left:130px}
-/* Remove margins from "page content" on small screens */
-@media only screen and (max-width: 600px) {#main {margin-left: 0}}
-</style>
-</head>
-<body class="fondo">
-<!-- No funciono <h1 class="rubik-glitch-regular" aling="center"><span class="w3-hide-small"></span>FATAL<img src="fatalpruebados.png" style="width:10%" align="center">CRASH</h1> -->
-<!-- Icon Bar (Sidebar - hidden on small screens) -->
-<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
-  <!-- Avatar image in top left corner -->
-  <img src="fatalprueba.png" style="width:100%">
-  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
-    <img src ="principal.png" style="width:100%">
-  </a>
-  <a href="#integrantes" class="w3-bar-item w3-button w3-padding-large w3-black">
-    <img src ="Integrantes.png" style="width:100%">
-  </a>
-  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-black">
-    <img src ="galeria02.png" style="width:100%">
-  </a>
-  <a href="#eventos" class="w3-bar-item w3-button w3-padding-large w3-black">
-    <img src ="eventos03.png" style="width:100%">
-  </a>
-  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-black">
-    <img src ="contacto.png" style="width:100%">
-  </a>
-  <a href="#material" class="w3-bar-item w3-button w3-padding-large w3-black">
-    <img src ="material.png" style="width:100%">
-  </a>
-</nav>
-<!-- Navbar on small screens (Hidden on medium and large screens) -->
-<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
-  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
-    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">Principal</a>
-    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">Integrantes</a>
-    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">Galeria</a>
-    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">Material</a>
-  </div>
-</div>
 
-<!-- Page Content -->
-<div class="w3-padding-large" id="main">
-  <!-- Header/Home -->
-  <header class="w3-container w3-padding-32 w3-center w3-titulo" id="home">
-    <h1 class="rubik-glitch-regular"><span class="w3-hide-small"></span>FATAL<img src="fatalpruebados.png" style="width:20%">CRASH</h1>
-    <p></p>
-  </header>
-  
-  <!-- <div class="w3-padding-large" id="main"> -->
- <!-- About Section -->
-  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
-    <h2 class="w3-text-light-grey"></h2>
-    <hr style="width:200px" class="w3-opacity">
-    <p>
-    </p>
-    <h3 class="rubik-vinyl-regular">Historia</h3>
-    <p class="stalinist-one-regular"><span class="w3-large w3-margin-right">Esta es un breve reseña de lo que somos Fatal-Crash</span></p>
-    <!-- <p class="w3-wide"></p>
+<head>
+  <title>Fatal Crash</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/css/3w.css">
+  <!--<link rel="stylesheet" href="font-awesome.min.css">-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Notable&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Notable&family=Trade+Winds&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Notable&family=Rubik+Glitch&family=Trade+Winds&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Notable&family=Rubik+Glitch&family=Rubik+Vinyl&family=Trade+Winds&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Notable&family=Rubik+Glitch&family=Rubik+Vinyl&family=Stalinist+One&family=Trade+Winds&display=swap"
+    rel="stylesheet">
+  <link rel="shortcut icon" href="fatalprueba.ico" />
+  <style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Montserrat", sans-serif
+    }
+
+    .notable-prueba {
+      font-family: "Notable", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    .rock-salt-regular {
+      font-family: "Rock Salt", cursive;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 80px;
+      color: aliceblue;
+    }
+
+    .trade-winds-regular {
+      font-family: "Trade Winds", system-ui;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 80px;
+      color: aliceblue;
+    }
+
+    .notable-regular {
+      font-family: "Notable", serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 80px;
+      color: aliceblue;
+    }
+
+    .rubik-glitch-regular {
+      font-family: "Rubik Glitch", system-ui;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 80px;
+      color: aliceblue;
+    }
+
+    .rubik-vinyl-regular {
+      font-family: "Rubik Vinyl", system-ui;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 45px;
+      color: aliceblue;
+    }
+
+    .stalinist-one-regular {
+      font-family: "Stalinist One", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      color: aliceblue;
+    }
+
+    .w3-row-padding img {
+      margin-bottom: 12px
+    }
+
+    /* Set the width of the sidebar to 120px */
+    .w3-sidebar {
+      width: 180px;
+      background: #962525cc;
+    }
+
+    /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+    #main {
+      margin-left: 130px
+    }
+
+    /* Remove margins from "page content" on small screens */
+    @media only screen and (max-width: 600px) {
+      #main {
+        margin-left: 0
+      }
+    }
+  </style>
+</head>
+
+<body class="fondo">
+  <!-- No funciono <h1 class="rubik-glitch-regular" aling="center"><span class="w3-hide-small"></span>FATAL<img src="fatalpruebados.png" style="width:10%" align="center">CRASH</h1> -->
+  <!-- Icon Bar (Sidebar - hidden on small screens) -->
+  <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+    <!-- Avatar image in top left corner -->
+    <img src="fatalprueba.png" style="width:100%">
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+      <img src="principal.png" style="width:100%">
+    </a>
+    <a href="#integrantes" class="w3-bar-item w3-button w3-padding-large w3-black">
+      <img src="Integrantes.png" style="width:100%">
+    </a>
+    <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-black">
+      <img src="galeria02.png" style="width:100%">
+    </a>
+    <a href="#eventos" class="w3-bar-item w3-button w3-padding-large w3-black">
+      <img src="eventos03.png" style="width:100%">
+    </a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-black">
+      <img src="contacto.png" style="width:100%">
+    </a>
+    <a href="#material" class="w3-bar-item w3-button w3-padding-large w3-black">
+      <img src="material.png" style="width:100%">
+    </a>
+  </nav>
+  <!-- Navbar on small screens (Hidden on medium and large screens) -->
+  <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+    <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+      <a href="#" class="w3-bar-item w3-button" style="width:25% !important">Principal</a>
+      <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">Integrantes</a>
+      <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">Galeria</a>
+      <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">Material</a>
+    </div>
+  </div>
+
+  <!-- Page Content -->
+  <div class="w3-padding-large" id="main">
+    <!-- Header/Home -->
+    <header class="w3-container w3-padding-32 w3-center w3-titulo" id="home">
+      <h1 class="rubik-glitch-regular"><span class="w3-hide-small"></span>FATAL<img src="fatalpruebados.png"
+          style="width:20%">CRASH</h1>
+      <p></p>
+    </header>
+
+    <!-- <div class="w3-padding-large" id="main"> -->
+    <!-- About Section -->
+    <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+      <h2 class="w3-text-light-grey"></h2>
+      <hr style="width:200px" class="w3-opacity">
+      <p>
+      </p>
+      <h3 class="rubik-vinyl-regular">Historia</h3>
+      <p class="stalinist-one-regular"><span class="w3-large w3-margin-right">Esta es un breve reseña de lo que somos
+          Fatal-Crash</span></p>
+      <!-- <p class="w3-wide"></p>
     <div class="w3-white">
       <div class="w3-dark-grey" style="height:28px;width:95%"></div>
     </div>
@@ -148,157 +187,168 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     <div class="w3-white">
       <div class="w3-dark-grey" style="height:28px;width:80%"></div>
     </div><br> -->
-    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">Nosotros eramos un grupo de cumbias, pero se nos fue el de el teclado y las congas y nos volvimos una banda de rock XD</span><br>
+      <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+        <div class="w3-quarter w3-section">
+          <span class="w3-xlarge">Nosotros eramos un grupo de cumbias, pero se nos fue el de el teclado y las congas y
+            nos volvimos una banda de rock XD</span><br>
+        </div>
+        <div class="w3-quarter w3-section">
+          <span class="w3-xlarge"></span>ngfngfngfnfffffffffffffffffffffffffffffffffffffffcbc gcbcfn<br>
+        </div>
+        <div class="w3-quarter w3-section">
+          <span class="w3-xlarge"></span><br>
+        </div>
+        <div class="w3-quarter w3-section">
+          <span class="w3-xlarge"></span><br>
+        </div>
       </div>
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge"></span>ngfngfngfnfffffffffffffffffffffffffffffffffffffffcbc gcbcfn<br>
+      <button class="w3-button w3-light-grey w3-padding-large w3-section">
+        <i class="fa fa-download"></i>
+      </button>
+
+      <!-- Grid for pricing tables -->
+      <h3 class="rubik-vinyl-regular" id="integrantes">Integrantes</h3>
+      <div class="w3-row-padding" style="margin:0 -16px">
+        <div class="w3-half w3-margin-bottom">
+          <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+            <li class="w3-dark-grey w3-xlarge w3-padding-32">1</li>
+            <li class="w3-padding-16">2</li>
+            <li class="w3-padding-16">3</li>
+            <li class="w3-padding-16">4</li>
+            <li class="w3-padding-16">5</li>
+            <li class="w3-padding-16">
+              <h2></h2>
+              <span class="w3-opacity"></span>
+            </li>
+            <li class="w3-light-grey w3-padding-24">
+              <button class="w3-button w3-white w3-padding-large w3-hover-black"></button>
+            </li>
+          </ul>
+        </div>
+
+        <div class="w3-half">
+          <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+            <li class="w3-dark-grey w3-xlarge w3-padding-32">1</li>
+            <li class="w3-padding-16">2</li>
+            <li class="w3-padding-16">3</li>
+            <li class="w3-padding-16">4</li>
+            <li class="w3-padding-16">5</li>
+            <li class="w3-padding-16">
+              <h2></h2>
+              <span class="w3-opacity"></span>
+            </li>
+            <li class="w3-light-grey w3-padding-24">
+              <button class="w3-button w3-white w3-padding-large w3-hover-black"></button>
+            </li>
+          </ul>
+        </div>
+        <!-- End Grid/Pricing tables -->
       </div>
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge"></span><br>
+
+      <!-- Testimonials -->
+      <h3 class="rubik-vinyl-regular" id="eventos">Eventos</h3>
+      <img src="/w3images/bandmember.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+      <p><span class="w3-large w3-margin-right">Chris Fox.</span> CEO at Mighty Schools.</p>
+      <p>John Doe saved us from a web disaster.</p><br>
+
+      <img src="/w3images/avatar_g2.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+      <p><span class="w3-large w3-margin-right">Rebecca Flex.</span> CEO at Company.</p>
+      <p>No one is better than John Doe.</p>
+      <!-- End About Section -->
+    </div>
+
+    <!-- Portfolio Section -->
+    <div class="w3-padding-64 w3-content" id="photos">
+      <h2 class="rubik-vinyl-regular">Galeria</h2>
+      <hr style="width:200px" class="w3-opacity">
+
+      <!-- Grid for photos -->
+      <div class="w3-row-padding" style="margin:0 -16px">
+        <div class="w3-half">
+          <img src="/w3images/wedding.jpg" style="width:100%">
+          <img src="/w3images/rocks.jpg" style="width:100%">
+          <img src="/w3images/sailboat.jpg" style="width:100%">
+        </div>
+
+        <div class="w3-half">
+          <img src="/w3images/underwater.jpg" style="width:100%">
+          <img src="/w3images/chef.jpg" style="width:100%">
+          <img src="/w3images/wedding.jpg" style="width:100%">
+          <img src="/w3images/p6.jpg" style="width:100%">
+        </div>
+        <!-- End photo grid -->
       </div>
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge"></span><br>
+      <!-- End Portfolio Section -->
+      <!-- Grid for pricing tables -->
+      <h3 class="rubik-vinyl-regular" id="material">Material</h3>
+      <div class="w3-row-padding" style="margin:0 -16px">
+        <div class="w3-half w3-margin-bottom">
+          <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+            <li class="w3-dark-grey w3-xlarge w3-padding-32">Sound Track</li>
+            <li class="w3-padding-16"><audio controls src="Ragnarock - Savage Rock N' Roll [Live Session].mp3">
+                <p>
+                  Su navegador no soporta el formato del audio, pulse <a
+                    href="Ragnarock - Savage Rock N' Roll [Live Session].mp3">aquí</a> para descargarlo.
+                </p>
+              </audio></li>
+            <li class="w3-padding-16">3</li>
+            <li class="w3-padding-16">4</li>
+            <li class="w3-padding-16">5</li>
+          </ul>
+        </div>
+        <br>
       </div>
     </div>
-    <button class="w3-button w3-light-grey w3-padding-large w3-section">
-      <i class="fa fa-download"></i> 
-    </button>
-    
-    <!-- Grid for pricing tables -->
-    <h3 class="rubik-vinyl-regular" id="integrantes">Integrantes</h3>
-    <div class="w3-row-padding" style="margin:0 -16px">
-      <div class="w3-half w3-margin-bottom">
-        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-          <li class="w3-dark-grey w3-xlarge w3-padding-32">1</li>
-          <li class="w3-padding-16">2</li>
-          <li class="w3-padding-16">3</li>
-          <li class="w3-padding-16">4</li>
-          <li class="w3-padding-16">5</li>
-          <li class="w3-padding-16">
-            <h2></h2>
-            <span class="w3-opacity"></span>
-          </li>
-          <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-white w3-padding-large w3-hover-black"></button>
-          </li>
-        </ul>
-      </div>
+    <!-- Contact Section -->
+    <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+      <h2 class="rubik-vinyl-regular">Contacto</h2>
+      <hr style="width:200px" class="w3-opacity">
 
-      <div class="w3-half">
-        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-          <li class="w3-dark-grey w3-xlarge w3-padding-32">1</li>
-          <li class="w3-padding-16">2</li>
-          <li class="w3-padding-16">3</li>
-          <li class="w3-padding-16">4</li>
-          <li class="w3-padding-16">5</li>
-          <li class="w3-padding-16">
-            <h2></h2>
-            <span class="w3-opacity"></span>
-          </li>
-          <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-white w3-padding-large w3-hover-black"></button>
-          </li>
-        </ul>
-      </div>
-    <!-- End Grid/Pricing tables -->
+      <div class="w3-section">
+        <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Teolyucan, Estado de México
+        </p>
+        <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Celular: <a
+            href="https://wa.me/525547409949">55 4740 9949</a></p>
+        <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: fatalcrassh@gmail.com
+        </p>
+      </div><br>
+      <p>Let's get in touch. Send me a message:</p>
+
+      <form action="/action_page.php" target="_blank">
+        <p><input class="w3-input w3-padding-16" type="text" placeholder="Nombre" required name="Nombre"></p>
+        <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+        <p><input class="w3-input w3-padding-16" type="text" placeholder="Asunto" required name="Asunto"></p>
+        <p><input class="w3-input w3-padding-16" type="text" placeholder="Mensaje" required name="Mensaje"></p>
+        <p>
+          <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+            <i class="fa fa-paper-plane"></i> SEND MESSAGE
+          </button>
+        </p>
+      </form>
+      <br>
+      <!-- End Contact Section -->
+      <h3 class="w3-padding-16 w3-text-light-grey" id="material">Contador de visitas</h3>
+      <div id="sfcjeal3hshxfkpbx82un73atgmnsg5em7g"></div>
+      <script type="text/javascript"
+        src="https://counter6.optistats.ovh/private/counter.js?c=jeal3hshxfkpbx82un73atgmnsg5em7g&down=async"
+        async></script><br><a href="https://www.contadorvisitasgratis.com"></a><noscript><a
+          href="https://www.contadorvisitasgratis.com" title="contador de visitas"><img
+            src="https://counter6.optistats.ovh/private/contadorvisitasgratis.php?c=jeal3hshxfkpbx82un73atgmnsg5em7g"
+            border="0" title="contador de visitas" alt="contador de visitas"></a></noscript>
+
+      <!-- Footer -->
+      <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+        <a href="https://www.facebook.com/profile.php?id=61561623998825&mibextid=JRoKGi"><i
+            class="fa fa-facebook-official w3-hover-opacity"></i></a>
+        <!--- No funciona  esta parte del codigo <a href="https://www.facebook.com/share/2DPr4JUHWyqqAixk/?mibextid=JRoKGi"><img src="facebook.ico" /></a> --->
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <p class="w3-medium"><a href="https://fatal-crash.netlify.app/" target="_blank"
+            class="w3-hover-text-green">Fatal-Crash© 2024</a></p>
+        <!-- End footer -->
+      </footer>
+
+      <!-- END PAGE CONTENT -->
     </div>
-    
-    <!-- Testimonials -->
-    <h3 class="rubik-vinyl-regular" id="eventos">Eventos</h3> 
-    <img src="/w3images/bandmember.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
-    <p><span class="w3-large w3-margin-right">Chris Fox.</span> CEO at Mighty Schools.</p>
-    <p>John Doe saved us from a web disaster.</p><br>
-    
-    <img src="/w3images/avatar_g2.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
-    <p><span class="w3-large w3-margin-right">Rebecca Flex.</span> CEO at Company.</p>
-    <p>No one is better than John Doe.</p>
-  <!-- End About Section -->
-  </div>
-  
-  <!-- Portfolio Section -->
-  <div class="w3-padding-64 w3-content" id="photos">
-    <h2 class="rubik-vinyl-regular">Galeria</h2>
-    <hr style="width:200px" class="w3-opacity">
-
-    <!-- Grid for photos -->
-    <div class="w3-row-padding" style="margin:0 -16px">
-      <div class="w3-half">
-        <img src="/w3images/wedding.jpg" style="width:100%">
-        <img src="/w3images/rocks.jpg" style="width:100%">
-        <img src="/w3images/sailboat.jpg" style="width:100%">
-      </div>
-
-      <div class="w3-half">
-        <img src="/w3images/underwater.jpg" style="width:100%">
-        <img src="/w3images/chef.jpg" style="width:100%">
-        <img src="/w3images/wedding.jpg" style="width:100%">
-        <img src="/w3images/p6.jpg" style="width:100%">
-      </div>
-    <!-- End photo grid -->
-    </div>
-  <!-- End Portfolio Section -->
-       <!-- Grid for pricing tables -->
-       <h3 class="rubik-vinyl-regular" id="material">Material</h3>
-       <div class="w3-row-padding" style="margin:0 -16px">
-         <div class="w3-half w3-margin-bottom">
-           <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-             <li class="w3-dark-grey w3-xlarge w3-padding-32">Sound Track</li>
-             <li class="w3-padding-16"><audio
-              controls
-              src="Ragnarock - Savage Rock N' Roll [Live Session].mp3"
-              >
-              <p>
-                  Su navegador no soporta el formato del audio, pulse <a href="Ragnarock - Savage Rock N' Roll [Live Session].mp3">aquí</a> para descargarlo.
-              </p>
-          </audio></li>
-             <li class="w3-padding-16">3</li>
-             <li class="w3-padding-16">4</li>
-             <li class="w3-padding-16">5</li>
-           </ul>
-         </div>
-         <br>
-       </div>
-  </div>
-  <!-- Contact Section -->
-  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
-    <h2 class="rubik-vinyl-regular">Contacto</h2>
-    <hr style="width:200px" class="w3-opacity">
-
-    <div class="w3-section">
-      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Teolyucan, Estado de México</p>
-      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Celular: <a href="https://wa.me/525547409949">55 4740 9949</a></p>
-      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: fatalcrassh@gmail.com</p>
-    </div><br>
-    <p>Let's get in touch. Send me a message:</p>
-
-    <form action="/action_page.php" target="_blank">
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Nombre" required name="Nombre"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Asunto" required name="Asunto"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Mensaje" required name="Mensaje"></p>
-      <p>
-        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
-          <i class="fa fa-paper-plane"></i> SEND MESSAGE
-        </button>
-      </p>
-    </form>
-   <br>
-  <!-- End Contact Section -->
-  <h3 class="w3-padding-16 w3-text-light-grey" id="material">Contador de visitas</h3>
-  <div id="sfcjeal3hshxfkpbx82un73atgmnsg5em7g"></div><script type="text/javascript" src="https://counter6.optistats.ovh/private/counter.js?c=jeal3hshxfkpbx82un73atgmnsg5em7g&down=async" async></script><br><a href="https://www.contadorvisitasgratis.com"></a><noscript><a href="https://www.contadorvisitasgratis.com" title="contador de visitas"><img src="https://counter6.optistats.ovh/private/contadorvisitasgratis.php?c=jeal3hshxfkpbx82un73atgmnsg5em7g" border="0" title="contador de visitas" alt="contador de visitas"></a></noscript>
-  
-    <!-- Footer -->
-  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
-    <a href="https://www.facebook.com/profile.php?id=61561623998825&mibextid=JRoKGi"><i class="fa fa-facebook-official w3-hover-opacity"></i></a> 
-    <!--- No funciona  esta parte del codigo <a href="https://www.facebook.com/share/2DPr4JUHWyqqAixk/?mibextid=JRoKGi"><img src="facebook.ico" /></a> --->
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <p class="w3-medium"><a href="https://fatal-crash.netlify.app/" target="_blank" class="w3-hover-text-green">Fatal-Crash© 2024</a></p>
-  <!-- End footer -->
-  </footer>
-
-<!-- END PAGE CONTENT -->
-</div>
 </body>
+
 </html>
